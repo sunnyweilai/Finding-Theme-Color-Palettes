@@ -1,0 +1,6 @@
+notebook
+qtconsole
+jupyter-console
+nbconvert
+ipykernel
+ipywidgets

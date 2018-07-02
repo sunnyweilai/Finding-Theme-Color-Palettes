@@ -1,0 +1,50 @@
+{
+  "name": "@jupyterlab/docmanager-extension",
+  "version": "0.15.4",
+  "description": "JupyterLab - Document Manager Extension",
+  "homepage": "https://github.com/jupyterlab/jupyterlab",
+  "bugs": {
+    "url": "https://github.com/jupyterlab/jupyterlab/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Project Jupyter",
+  "files": [
+    "lib/*.d.ts",
+    "lib/*.js.map",
+    "lib/*.js",
+    "schema/*.json"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jupyterlab/jupyterlab.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^0.15.4",
+    "@jupyterlab/apputils": "^0.15.4",
+    "@jupyterlab/coreutils": "^1.0.6",
+    "@jupyterlab/docmanager": "^0.15.4",
+    "@jupyterlab/docregistry": "^0.15.4",
+    "@jupyterlab/mainmenu": "^0.4.4",
+    "@jupyterlab/services": "^1.1.4",
+    "@phosphor/disposable": "^1.1.2"
+  },
+  "devDependencies": {
+    "rimraf": "~2.6.2",
+    "typescript": "~2.6.2"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "schemaDir": "schema"
+  }
+}

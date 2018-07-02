@@ -1,0 +1,39 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "lib/python2.7/site-packages/certifi-2018.04.16-py2.7.egg-info",
+    "lib/python2.7/site-packages/certifi/__init__.py",
+    "lib/python2.7/site-packages/certifi/__init__.pyc",
+    "lib/python2.7/site-packages/certifi/__main__.py",
+    "lib/python2.7/site-packages/certifi/__main__.pyc",
+    "lib/python2.7/site-packages/certifi/cacert.pem",
+    "lib/python2.7/site-packages/certifi/core.py",
+    "lib/python2.7/site-packages/certifi/core.pyc"
+  ],
+  "fn": "certifi-2018.4.16-py27_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "/anaconda2/pkgs/certifi-2018.4.16-py27_0",
+    "type": 1
+  },
+  "md5": "bb48532bfcad5750b556078c63e1d706",
+  "name": "certifi",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 145513,
+  "subdir": "osx-64",
+  "timestamp": 1524178030420,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/certifi-2018.4.16-py27_0.tar.bz2",
+  "version": "2018.4.16",
+  "with_features_depends": {}
+}

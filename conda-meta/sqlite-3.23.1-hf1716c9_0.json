@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "hf1716c9_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [
+    "libedit",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "files": [
+    "bin/sqlite3",
+    "include/sqlite3.h",
+    "include/sqlite3ext.h",
+    "lib/libsqlite3.0.dylib",
+    "lib/libsqlite3.a",
+    "lib/libsqlite3.dylib",
+    "lib/libsqlite3.la",
+    "lib/pkgconfig/sqlite3.pc"
+  ],
+  "fn": "sqlite-3.23.1-hf1716c9_0.tar.bz2",
+  "license": "Public-Domain (http://www.sqlite.org/copyright.html)",
+  "link": {
+    "source": "/anaconda2/pkgs/sqlite-3.23.1-hf1716c9_0",
+    "type": 1
+  },
+  "md5": "1baee6b046ebd1e6ec7735ed4ce39e5e",
+  "name": "sqlite",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 1996334,
+  "subdir": "osx-64",
+  "timestamp": 1524193465878,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/sqlite-3.23.1-hf1716c9_0.tar.bz2",
+  "version": "3.23.1",
+  "with_features_depends": {}
+}

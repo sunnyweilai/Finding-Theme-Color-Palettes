@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: jupyterlab
+Version: 0.31.5
+Summary: The JupyterLab notebook server extension.
+Home-page: http://jupyter.org
+Author: Jupyter Development Team
+Author-email: jupyter@googlegroups.com
+License: BSD
+Description-Content-Type: UNKNOWN
+Description: 
+        This is a beta release of JupyterLab.
+        Development happens on https://github.com/jupyter/jupyterlab, with chat on
+        https://gitter.im/jupyter/jupyterlab.
+        
+Keywords: ipython,jupyter,Web
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

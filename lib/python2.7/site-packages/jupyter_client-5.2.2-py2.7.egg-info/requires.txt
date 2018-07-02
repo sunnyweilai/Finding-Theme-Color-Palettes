@@ -1,0 +1,16 @@
+traitlets
+jupyter_core
+pyzmq>=13
+python-dateutil>=2.1
+tornado>=4.1
+
+[test]
+ipykernel
+ipython
+mock
+
+[test:(python_version >= "3.4" or python_version == "2.7")]
+pytest
+
+[test:python_version == "3.3"]
+pytest<3.3.0

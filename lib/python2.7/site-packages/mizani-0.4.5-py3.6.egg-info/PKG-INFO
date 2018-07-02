@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: mizani
+Version: 0.4.5
+Summary: Scales for Python
+Home-page: https://github.com/has2k1/mizani
+Author: Hassan Kibirige
+Author-email: has2k1@gmail.com
+License: BSD (3-clause)
+Description-Content-Type: UNKNOWN
+Description: 
+        Mizani
+        
+        Mizani is a scales package for graphics. It is based on Hadley
+        Wickham's *Scales* package.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cloudpickle/__init__.py
+cloudpickle/cloudpickle.py
+cloudpickle.egg-info/PKG-INFO
+cloudpickle.egg-info/SOURCES.txt
+cloudpickle.egg-info/dependency_links.txt
+cloudpickle.egg-info/top_level.txt
+tests/__init__.py
+tests/cloudpickle_file_test.py
+tests/cloudpickle_test.py
+tests/testutils.py
