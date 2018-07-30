@@ -6,10 +6,10 @@ import csv
 
 
 # open sample image and quantized images with different numbers of colors
-temp_img = Image.open('../../../img/sky.jpg')
+temp_img = Image.open('../../../img/universe.jpg')
 
 quantized_img_path_list = []
-quantized_img_path_list = glob.glob(r'../../img/sky/quantized_img/*.png')
+quantized_img_path_list = glob.glob(r'../../img/universe/quantized_img/*.png')
 quantized_img_path_list.sort()
 print(quantized_img_path_list)
 
@@ -22,7 +22,7 @@ for i in quantized_img_path_list:
     print(score)
 
 # save ssim score to csv file
-csvfile = "sky_ssim.csv"
+csvfile = "universe_ssim.csv"
 with open(csvfile, "w") as output:
     writer = csv.writer(output, lineterminator='\n')
     for val in score_list:
