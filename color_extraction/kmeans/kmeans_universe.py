@@ -86,21 +86,21 @@ for i in n_colors_list:
 
 
 # ---------------------find the number of different colors in the image
-img = Image.open('../img/universe.jpg')
-pix = img.load()
-width = img.size[0]
-height = img.size[1]
-img = img.convert('RGB')
-rgb_array = []
-for x in range(width):
-    for y in range(height):
-        r, g, b = pix[x,y]
-        rgb = (r,g,b)
-        # rgb = (int(str(r) + str(g) + str(b)))
-        rgb_array.append(rgb)
-print(len(rgb_array))
-a = set(rgb_array)
-print(len(a))
+# img = Image.open('../img/universe.jpg')
+# pix = img.load()
+# width = img.size[0]
+# height = img.size[1]
+# img = img.convert('RGB')
+# rgb_array = []
+# for x in range(width):
+#     for y in range(height):
+#         r, g, b = pix[x,y]
+#         rgb = (r,g,b)
+#         # rgb = (int(str(r) + str(g) + str(b)))
+#         rgb_array.append(rgb)
+# print(len(rgb_array))
+# a = set(rgb_array)
+# print(len(a))
 
 
 
