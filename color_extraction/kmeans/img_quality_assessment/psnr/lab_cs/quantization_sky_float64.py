@@ -5,7 +5,6 @@ import math
 from sklearn.cluster import KMeans
 import scipy.misc
 from skimage import color,data
-from vif_function import vifp_mscale
 
 
 # convert to lab color space to do kmeans
@@ -29,6 +28,15 @@ def quantize(raster, n_colors):
     rescale_quant = (quantized_raster + [0, 128, 128]) / [100, 255, 255]
     return rescale_quant
 
+# PSNR method
+def psnr(img1, img2):
+    mse = np.mean((img1 - img2) ** 2)
+    if mse == 0:
+        return 100
+    # 16 bits per pixel in lab color space
+    PIXEL_MAX = 1
+    return 10 * math.log10((PIXEL_MAX)**2 / mse)
+
 # color themes with from 1-20 colors
 n_colors_list = range(1,21)
 testimg_list = []
@@ -39,15 +47,10 @@ for i in n_colors_list:
 # rescale original raster to [0,1]
 rescale_ori= (lab_raster + [0, 128, 128]) / [100, 255, 255]
 
-score_list = []
-for i in testimg_list:
-    score = vifp_mscale(rescale_ori,i)
-    score_list.append(score)
 
 
-# save vif score to csv file
-csvfile = "lab_sky_vif_v2.csv"
-with open(csvfile, "w") as output:
-    writer = csv.writer(output, lineterminator='\n')
-    for val in score_list:
-        writer.writerow([val])
+
+
+
+
+

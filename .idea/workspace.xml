@@ -2,73 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2847e2-bc77-4e00-a2cf-dff787ebcd82" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_ass_v2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_assessment.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/temp_image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/rgb_cs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/img_compare.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG_v2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/temp_image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/ssim_assessment.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/temp_image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/vif_assessment.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/vif_function.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/lab_color_space_sky.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/other_color_spaces_sky.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lai_Project.iml" afterPath="$PROJECT_DIR$/.idea/Lai_Project.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_L_lab_float64.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_lab_float64.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_lab_uint16.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/quantization_sky_float64.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/SSIM_in_L_lab.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/SSIM_in_lab.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/quantization_sky_float64.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized10.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized10.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized15.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized15.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized2.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized02.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized20.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized20.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized25.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized25.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized3.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized03.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized30.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized30.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized5.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized05.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_img/img_quantized6.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized06.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette10.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette10.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette15.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette15.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette2.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette2.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette20.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette20.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette25.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette25.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette3.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette3.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette30.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette30.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette5.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette5.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/quantized_palette/img_palette6.png" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_palette/img_palette6.png" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/gmsd_assessment.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/rgb_cs/gmsd_assessment.py" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/sky_gmsd.csv" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/rgb_cs/sky_gmsd.csv" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/universe_gmsd.csv" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/rgb_cs/universe_gmsd.csv" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/psnr_PKG.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/psnr_PKG.py" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/psnr_assessment.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/psnr_assessment.py" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/sky_psnr.csv" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/sky_psnr.csv" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/universe_psnr.csv" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/universe_psnr.csv" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/sky_ssim.csv" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs/sky_ssim.csv" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/ssim_assessment.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs/ssim_assessment.py" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/universe_ssim.csv" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs/universe_ssim.csv" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/sky_vif.csv" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/sky_vif.csv" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/universe_vif.csv" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/universe_vif.csv" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/vif_assessment.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment.py" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/vif_function.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_function.py" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/kmeans_sky.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/rgb_color_spaces_sky.py" />
-      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/kmeans_universe.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/kmeans_universe.py" />
-      <change beforePath="$PROJECT_DIR$/document/~$L for color.docx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/scikit_image-0.13.1-py2.7.egg-info/PKG-INFO" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/scikit_image-0.13.1-py2.7.egg-info/SOURCES.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/scikit_image-0.13.1-py2.7.egg-info/dependency_links.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/scikit_image-0.13.1-py2.7.egg-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/scikit_image-0.13.1-py2.7.egg-info/not-zip-safe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/scikit_image-0.13.1-py2.7.egg-info/requires.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/scikit_image-0.13.1-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py" afterPath="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py" />
+      <change beforePath="$PROJECT_DIR$/color_extraction/kmeans/other_color_spaces_sky.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/document/Color Analysis.docx" afterPath="$PROJECT_DIR$/document/Color Analysis.docx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="psnr_PKG_v2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG_v2.py">
+      <file leaf-file-name="vif_assessment_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="340">
+              <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -91,43 +35,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="img_compare.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/img_compare.py">
+      <file leaf-file-name="lab_sky_vif_v2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/lab_sky_vif_v2.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab_sky_gmsd.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/lab_sky_gmsd.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lab_sky_psnr.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/lab_sky_psnr.csv">
+      <file leaf-file-name="vif_function.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="-688">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lab_sky_vif.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/lab_sky_vif.csv">
+      <file leaf-file-name="sky_vif.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/sky_vif.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vif_assessment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/vif_assessment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -148,14 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/quantize.py" />
-        <option value="$PROJECT_DIR$/octree/color.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/extractcolor.py" />
-        <option value="$PROJECT_DIR$/newoctree/color.py" />
-        <option value="$PROJECT_DIR$/newoctree/quantizer.py" />
-        <option value="$PROJECT_DIR$/newoctree/main.py" />
-        <option value="$PROJECT_DIR$/octree/nquan.py" />
         <option value="$PROJECT_DIR$/octree/quantizer.py" />
         <option value="$PROJECT_DIR$/octree/main.py" />
         <option value="$PROJECT_DIR$/kmeans-v2.py" />
@@ -192,16 +126,28 @@
         <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/sky_vif.csv" />
         <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_ass_v2.py" />
         <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG_v2.py" />
-        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py" />
         <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/img_compare.py" />
+        <option value="$PROJECT_DIR$/menmen.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/lab2.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR in lab_v1.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR in lab_v2.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr in L_lab_v3.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR in L_lab_v3.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_lab_v2.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/quantization_sky.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_L_lab_v3.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/quantization_sky.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/quantization_sky_float64.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/SSIM in lab_v1.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/SSIM_in_L_lab.py" />
+        <option value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="27" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -234,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,40 +218,6 @@
               <item name="color_extraction" type="462c0819:PsiDirectoryNode" />
               <item name="kmeans" type="462c0819:PsiDirectoryNode" />
               <item name="img_quality_assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="gmsd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSL_for_Color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lai_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="color_extraction" type="462c0819:PsiDirectoryNode" />
-              <item name="kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="img_quality_assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="gmsd" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_cs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSL_for_Color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lai_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="color_extraction" type="462c0819:PsiDirectoryNode" />
-              <item name="kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="img_quality_assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="psnr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSL_for_Color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lai_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="color_extraction" type="462c0819:PsiDirectoryNode" />
-              <item name="kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="img_quality_assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="psnr" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_cs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSL_for_Color" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lai_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="color_extraction" type="462c0819:PsiDirectoryNode" />
-              <item name="kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="img_quality_assessment" type="462c0819:PsiDirectoryNode" />
               <item name="vif" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,12 +228,20 @@
               <item name="img_quality_assessment" type="462c0819:PsiDirectoryNode" />
               <item name="vif" type="462c0819:PsiDirectoryNode" />
               <item name="lab_cs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSL_for_Color" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lai_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="color_extraction" type="462c0819:PsiDirectoryNode" />
+              <item name="kmeans" type="462c0819:PsiDirectoryNode" />
+              <item name="img_quality_assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="vif" type="462c0819:PsiDirectoryNode" />
+              <item name="rgb_cs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -337,19 +258,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs" />
+      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs" />
+      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs" />
+      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs" />
+      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs" />
+      <recent name="$PROJECT_DIR$/color_extraction/kmeans" />
       <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/rgb_cs" />
       <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs" />
       <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs" />
-      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs" />
-      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img/sky/hsv_cs/quantized_image" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs" />
-      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs" />
-      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs" />
-      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs" />
-      <recent name="$PROJECT_DIR$/color_extraction/kmeans/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,80 +285,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.img_compare">
-    <configuration name="gmsd_ass_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_ass_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="gmsd_lab" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_assessment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="img_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/img_compare.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="lab_test" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/lab_color_space_sky.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="psnr_PKG_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.vif_assessment_v2">
+    <configuration name="PSNR in lab_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -449,13 +298,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_lab_float64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="psnr_lab" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="PSNR_in_L_lab_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -467,49 +316,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_L_lab_float64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="psnr_rgb" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/psnr_PKG.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="rgb_cs_sky" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/rgb_color_spaces_sky.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ssim_lab" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="SSIM in lab_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -521,43 +334,61 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/ssim_assessment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/SSIM_in_lab.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ssim_rgb" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="SSIM_in_L_lab" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs/ssim_assessment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/SSIM_in_L_lab.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="vif_assessment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="psnr in lab_v1" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_lab_uint16.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="quantization_sky" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lai_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/quantization_sky_float64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -576,24 +407,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lai_Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="vif_lab" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lai_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -686,28 +499,22 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="13">
-      <item index="0" class="java.lang.String" itemvalue="Python.ssim_rgb" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ssim_lab" />
-      <item index="2" class="java.lang.String" itemvalue="Python.psnr_lab" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gmsd_lab" />
-      <item index="4" class="java.lang.String" itemvalue="Python.vif_lab" />
-      <item index="5" class="java.lang.String" itemvalue="Python.psnr_rgb" />
-      <item index="6" class="java.lang.String" itemvalue="Python.lab_test" />
-      <item index="7" class="java.lang.String" itemvalue="Python.rgb_cs_sky" />
-      <item index="8" class="java.lang.String" itemvalue="Python.vif_assessment" />
-      <item index="9" class="java.lang.String" itemvalue="Python.gmsd_ass_v2" />
-      <item index="10" class="java.lang.String" itemvalue="Python.psnr_PKG_v2" />
-      <item index="11" class="java.lang.String" itemvalue="Python.vif_assessment_v2" />
-      <item index="12" class="java.lang.String" itemvalue="Python.img_compare" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.psnr in lab_v1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.quantization_sky" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SSIM in lab_v1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.PSNR in lab_v2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PSNR_in_L_lab_v3" />
+      <item index="5" class="java.lang.String" itemvalue="Python.SSIM_in_L_lab" />
+      <item index="6" class="java.lang.String" itemvalue="Python.vif_assessment_v2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.img_compare" />
-        <item index="1" class="java.lang.String" itemvalue="Python.vif_assessment_v2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.psnr_PKG_v2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gmsd_ass_v2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.vif_assessment" />
+        <item index="0" class="java.lang.String" itemvalue="Python.vif_assessment_v2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SSIM_in_L_lab" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SSIM in lab_v1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PSNR_in_L_lab_v3" />
+        <item index="4" class="java.lang.String" itemvalue="Python.PSNR in lab_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -728,18 +535,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="27" width="1440" height="810" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25792813" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2966878" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.50528544" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253521" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32357043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3902098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32587412" sideWeight="0.4947146" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4197183" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104603" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -756,17 +563,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.50528544" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32357043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3902098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32587412" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32587412" sideWeight="0.4947146" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25792813" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23114869" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104603" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42097902" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -781,199 +588,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized13.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/img/sky_lab.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/img/sky_lab.tif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/img/sky.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized16.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized20.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized05.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized06.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/rgb_color_spaces_sky.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/temp_image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized11.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized10.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized07.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/lab_cs/quantized_img/img_quantized08.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized07.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized08.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized05.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img/sky/rgb_cs/quantized_img/img_quantized06.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/psnr_assessment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="43" column="30" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="43" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/vif_assessment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/psnr_PKG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs/ssim_assessment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/rgb_cs/universe_gmsd.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/sky_ssim_with_original.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs/sky_ssim.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/universe_vif.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/sky_ssim.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/median-cut/median-cut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/lab_color_space_sky.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="70" column="62" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_assessment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/sky_gmsd_with_original.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/sky_psnr_with_original.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1002,45 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/sky_psnr.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/sky_psnr.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/ssim_assessment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_ass_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1058,37 +642,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/sky_vif.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/img_compare.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,15 +653,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/lab_sky_gmsd.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="0">
           <caret line="15" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_ass_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.3/python_stubs/348993582/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61995">
+          <caret line="4133" column="8" lean-forward="false" selection-start-line="4133" selection-start-column="8" selection-end-line="4133" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menmen.py" />
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/gmsd/lab_cs/gmsd_assessment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/vif_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1112,7 +703,273 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/img/sky.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/img/sky_lab.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/img/sky_lab.tif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/other_color_spaces_sky.py" />
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/rgb_color_spaces_sky.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/temp_image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_PKG_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/sky_ssim_with_original.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/kmeans_universe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/lab_color_space_sky.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_lab_v2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_lab_v3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/psnr_lab_v1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/psnr_assessment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/sky_psnr.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/rgb_cs/psnr_PKG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_lab_uint16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_lab_float64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/PSNR_in_L_lab_float64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="7" column="107" lean-forward="false" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/ssim_assessment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/psnr/lab_cs/quantization_sky_float64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/ssim_lab_v1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/quantization_sky_float64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-688">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/universe_vif.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/SSIM_in_lab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/SSIM_in_L_lab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/lab_cs/ssim_lab_v2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/ssim/rgb_cs/sky_ssim.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/vif_assessment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/rgb_cs/sky_vif.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/lab_sky_vif_v2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_extraction/kmeans/img_quality_assessment/vif/lab_cs/vif_assessment_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
