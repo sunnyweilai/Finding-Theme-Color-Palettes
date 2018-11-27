@@ -10,7 +10,6 @@ from skimage import color
 
 temp_img = scipy.misc.imread('../../../../img/sky.jpg')
 lab_temp_img = (color.rgb2lab(temp_img) + [0, 128, 128]) / [100, 255, 255]
-print(lab_temp_img)
 lab_temp_width = lab_temp_img.shape[0]
 lab_temp_height = lab_temp_img.shape[1]*lab_temp_img.shape[2]
 lab_temp_img.resize((lab_temp_width,lab_temp_height)) #resize array to 2d

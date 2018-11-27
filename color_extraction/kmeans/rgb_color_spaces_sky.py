@@ -20,26 +20,27 @@ def quantize(raster, n_colors):
     model = KMeans(n_clusters = n_colors, random_state = 1)
     labels = model.fit_predict(reshape_raster)
     palette = model.cluster_centers_
-
+    print(palette)
     # reshape the picture based on the color theme (n colors)
     quantized_raster = np.reshape(
         palette[labels], (width, height, palette.shape[1])
     )
 
     # save quantized_img and colortheme_palette
-    image = Image.fromarray(quantized_raster.astype(np.uint8))
-    image.save("img/sky/rgb_cs/quantized_img/img_quantized%02d.png" % n_colors)
+    # image = Image.fromarray(quantized_raster.astype(np.uint8))
+    # image.save("img/sky/rgb_cs/quantized_img/img_quantized%02d.png" % n_colors)
 
     # visualize color them palette
-    # rgb_palette = palette / 255.0
-    # img_palette = mcolors.ListedColormap(rgb_palette)
-    # plt.figure(figsize=(n_colors, 0.5))
-    # plt.title('color theme')
-    # plt.pcolormesh(np.arange(img_palette.N).reshape(1, -1), cmap=img_palette)
-    # plt.gca().yaxis.set_visible(False)
-    # plt.gca().set_xlim(0, img_palette.N)
-    # # plt.show()
-    # plt.savefig('img/sky/quantized_palette/img_palette%02d.png' % n_colors)
+    rgb_palette = palette / 255.0
+    img_palette = mcolors.ListedColormap(rgb_palette)
+    plt.figure(figsize=(n_colors, 0.5))
+    plt.title('color theme')
+    plt.pcolormesh(np.arange(img_palette.N).reshape(1, -1), cmap=img_palette)
+    plt.gca().yaxis.set_visible(False)
+    plt.gca().set_xlim(0, img_palette.N)
+    plt.axis('off')
+    # plt.show()
+    plt.savefig('img/sky/rgb_cs/quantized_palette/img_palette%02d.png' % n_colors)
     #
     # """
     # use 2 validation methods to know how many numbers of colors in color theme is the best
@@ -63,10 +64,10 @@ def quantize(raster, n_colors):
     #
     # return scores_for_each
 
-n_colors_list = [1,4,7,8,9,11,12,13,14,16,17,18,19]
+
 
 rgb_raster = scipy.misc.imread('../img/sky.jpg')
-for i in n_colors_list:
+for i in range(1,21):
     result = quantize(rgb_raster, i)
     print(result)
 

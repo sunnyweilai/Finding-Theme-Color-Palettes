@@ -38,7 +38,7 @@ def quantize(raster, n_colors):
     # return quantized_raster
 
 
-n_colors_list = range(1,21)
+n_colors_list = [5]
 for i in n_colors_list:
     result = quantize(lab_raster, i)
 
