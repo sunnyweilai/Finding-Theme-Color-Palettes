@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding: utf8 -*-
 
-from color import Color
+from lab_color import LAB_Color
 
 class OctreeNode(object):
     """
@@ -16,7 +16,7 @@ class OctreeNode(object):
         :param level:
         :param parent:
         """
-        self.color = Color(0,0,0)
+        self.color = LAB_Color((0,0,0))
         self.pixel_count = 0
         self.palette_index = 0
         self.children = [None for _ in xrange(8)]
@@ -65,9 +65,9 @@ class OctreeNode(object):
         Add `color` to the tree
         """
         if level >= OctreeQuantizer.MAX_DEPTH:
-            self.color.red += color.red
-            self.color.green += color.green
-            self.color.blue += color.blue
+            self.color.L += color.L
+            self.color.A += color.A
+            self.color.B += color.B
             self.pixel_count += 1
             return
         index = self.get_color_index_for_level(color, level)
@@ -103,9 +103,9 @@ class OctreeNode(object):
         for i in xrange(8):
             node = self.children[i]
             if node:
-                self.color.red += node.color.red
-                self.color.green += node.color.green
-                self.color.blue += node.color.blue
+                self.color.L += node.color.L
+                self.color.A += node.color.A
+                self.color.B += node.color.B
                 self.pixel_count += node.pixel_count
                 result += 1
         return result - 1
@@ -120,11 +120,11 @@ class OctreeNode(object):
         """
         index = 0
         mask = 0x80 >> level
-        if color.red & mask:
+        if color.L & mask:
             index |= 4
-        if color.green & mask:
+        if color.A & mask:
             index |= 2
-        if color.blue & mask:
+        if color.B & mask:
             index |= 1
         return index
 
@@ -133,10 +133,10 @@ class OctreeNode(object):
         Get average color
         :return:
         """
-        return Color(
-            self.color.red / self.pixel_count,
-            self.color.green / self.pixel_count,
-            self.color.blue / self.pixel_count)
+        return LAB_Color(
+            (self.color.L / self.pixel_count,
+            self.color.A / self.pixel_count,
+            self.color.B / self.pixel_count))
 
 
 class OctreeQuantizer(object):

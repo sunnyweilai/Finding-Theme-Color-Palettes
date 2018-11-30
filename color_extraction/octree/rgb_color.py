@@ -1,4 +1,4 @@
-class Color(object):
+class RGB_Color(object):
     """
     Color class
     """

@@ -64,7 +64,7 @@ def median_cut(img, num):
 def main() :
     # open the reference image
     original_img = Image.open('../img/sky.jpg')
-    for n_colors in range(10,21):
+    for n_colors in [5]:
         median_cut(original_img, n_colors)
 
 if __name__ == "__main__":
