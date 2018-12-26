@@ -19,7 +19,6 @@ import math
 #  insert all colors of image into octree
 def quantize_color(image, num):
     ori_arr = np.array(image)
-    print(ori_arr)
     # convert to L*a*b* colorspace
     lab_arr = skimage.color.rgb2lab(ori_arr)
     ori_arr_lab = lab_arr.astype(int)
@@ -40,14 +39,40 @@ def quantize_color(image, num):
 
     # 256 colors for "num" bits per pixel output image
     palette_object = octree.make_palette(num)
-    # print(palette_object)
+    lab_palette = []
+    for i in palette_object:
+         L = i.L
+         A = i.A
+         B = i.B
+         lab = [L, A , B]
+         lab_palette.append(lab)
 
-    # save output image
-    # out_image = Image.new('RGB', (width, height))
-    # out_arr = np.reshape(np.array(out_image),(width,height))
-    # out_pixels = out_image.load()
+    # transform to 3d array to do the color space conversion
+    lab_array = np.asarray([lab_palette])
+    new_lab_palette = lab_array.astype(float)
+    back2rgb_palette = skimage.color.lab2rgb(new_lab_palette)
+
+
+    # transform back to 2d array in order to do the palette visualization
+    rgb_palette = []
+    for rgb in back2rgb_palette[0]:
+        rgb_palette.append(rgb)
+    print(rgb_palette)
+
+
+    # visualize color theme palette
+    img_palette = mcolors.ListedColormap(rgb_palette)
+    plt.figure(figsize=(num, 0.5))
+    plt.title('color theme')
+    plt.pcolormesh(np.arange(img_palette.N).reshape(1, -1), cmap=img_palette)
+    plt.gca().yaxis.set_visible(False)
+    plt.gca().set_xlim(0, img_palette.N)
+    plt.axis('off')
+    # plt.show()
+    plt.savefig('img/sky/lab_cs/quantized_palette/img_palette%02d.png' % num)
+
+    # get the quantized image
     quantized_arr = np.ones((width,height,3))
-
     for j in xrange(colors_length):
         index = octree.get_palette_index(LAB_Color(colors[j]))
         color = palette_object[index]
@@ -65,7 +90,8 @@ def quantize_color(image, num):
 
 def main():
     original_img = Image.open('../img/sky.jpg')
-    quantize_color(original_img, 5)
+    for i in range(1, 10):
+        quantize_color(original_img, i)
 
 if __name__ == "__main__":
     main()

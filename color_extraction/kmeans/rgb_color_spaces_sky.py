@@ -67,7 +67,7 @@ def quantize(raster, n_colors):
 
 
 rgb_raster = scipy.misc.imread('../img/sky.jpg')
-for i in range(1,21):
+for i in [5]:
     result = quantize(rgb_raster, i)
     print(result)
 

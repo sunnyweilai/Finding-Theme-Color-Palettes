@@ -31,6 +31,7 @@ def median_cut(img, num):
         average = c.average()
         for color in c.colors:
             LUT[color] = average
+
     quant_arr = ori_arr_lab
     for i in range(rows):
         for j in range(cols):
@@ -43,20 +44,29 @@ def median_cut(img, num):
     image.save("img/sky/lab_cs/added_L_quantized_img/img_quantized%02d.png" % num)
 
     # extract palette using pandas
-    # LUT_df = pd.DataFrame.from_dict(LUT, orient = 'index',columns = ['R','G','B'])
-    # palette = LUT_df.drop_duplicates(subset=['R','G','B']).values
-    # print(palette)
-    # # visualize color them palette
-    # rgb_palette = palette / 255.0
-    # img_palette = mcolors.ListedColormap(rgb_palette)
-    # plt.figure(figsize=(num, 0.5))
-    # plt.title('color theme')
-    # plt.pcolormesh(np.arange(img_palette.N).reshape(1, -1), cmap=img_palette)
-    # plt.gca().yaxis.set_visible(False)
-    # plt.gca().set_xlim(0, img_palette.N)
-    # plt.axis('off')
-    # # plt.show()
-    # plt.savefig('img/sky/lab_cs/quantized_palette/img_palette%02d.png' % num)
+    LUT_df = pd.DataFrame.from_dict(LUT, orient = 'index',columns = ['L','A','B'])
+    lab_palette = LUT_df.drop_duplicates(subset=['L','A','B']).values
+
+    # transform to 3d array to do the color space conversion
+    lab_array = np.asarray([lab_palette])
+    new_lab_palette = lab_array.astype(float)
+    back2rgb_palette = skimage.color.lab2rgb(new_lab_palette)
+
+    # transform back to 2d array in order to do the palette visualization
+    rgb_palette = []
+    for rgb in back2rgb_palette[0]:
+        rgb_palette.append(rgb)
+
+    # visualize color them palette
+    img_palette = mcolors.ListedColormap(rgb_palette)
+    plt.figure(figsize=(num, 0.5))
+    plt.title('color theme')
+    plt.pcolormesh(np.arange(img_palette.N).reshape(1, -1), cmap=img_palette)
+    plt.gca().yaxis.set_visible(False)
+    plt.gca().set_xlim(0, img_palette.N)
+    plt.axis('off')
+    # plt.show()
+    plt.savefig('img/sky/lab_cs/quantized_palette/img_palette%02d.png' % num)
 
 
 
@@ -64,7 +74,7 @@ def median_cut(img, num):
 def main() :
     # open the reference image
     original_img = Image.open('../img/sky.jpg')
-    for n_colors in [5]:
+    for n_colors in range(10, 21):
         median_cut(original_img, n_colors)
 
 if __name__ == "__main__":
