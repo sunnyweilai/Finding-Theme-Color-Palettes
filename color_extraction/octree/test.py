@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 from __future__ import division
 from PIL import Image
 from skimage import color
@@ -19,6 +18,7 @@ import math
 #  insert all colors of image into octree
 def quantize_color(image, num):
     ori_arr = np.array(image)
+
     # convert to L*a*b* colorspace
     lab_arr = skimage.color.rgb2lab(ori_arr)
     ori_arr_lab = lab_arr.astype(int)
@@ -57,7 +57,7 @@ def quantize_color(image, num):
     rgb_palette = []
     for rgb in back2rgb_palette[0]:
         rgb_palette.append(rgb)
-    print(rgb_palette)
+    # print(rgb_palette)
 
 
     # visualize color theme palette

@@ -61,8 +61,8 @@ def _open_with_typer(*args):
 __builtin__.open = _open_with_typer
 
 """
-open('test.py')
-_open_with_typer('test.py', 'w')
+open('lab_vif.py')
+_open_with_typer('lab_vif.py', 'w')
 _open_with_typer('test.txt', 'w')
 _open_with_typer('test.html', 'w')
 _open_with_typer('test.foo', 'w')

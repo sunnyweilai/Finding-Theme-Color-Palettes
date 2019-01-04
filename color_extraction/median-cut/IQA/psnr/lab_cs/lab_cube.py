@@ -36,11 +36,15 @@ class LAB_Cube_1(object):
         self.A = [a[1] for a in colors]
         self.B = [b[2] for b in colors]
 
-        self.size = (max(self.L) - min(self.L),
+        added_L = (max(self.L) - min(self.L))
+        self.size = (added_L,
                      max(self.A) - min(self.A),
                      max(self.B) - min(self.B))
         self.range = max(self.size)
         self.channel = self.size.index(self.range)
+
+    def __lt__(self, other):
+        return self.range < other.range
 
     def average(self):
         l = int(mean(self.L))
@@ -51,4 +55,4 @@ class LAB_Cube_1(object):
     def split(self):
         middle = int(len(self.colors) / 2)
         colors = sorted(self.colors, key=lambda c: c[self.channel])
-        return LAB_Cube_1(colors[:middle]), LAB_Cube_2(colors[middle:])
+        return LAB_Cube_1(colors[:middle]), LAB_Cube_1(colors[middle:])
