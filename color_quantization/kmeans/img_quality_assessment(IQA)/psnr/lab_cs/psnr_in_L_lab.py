@@ -8,7 +8,7 @@ With this consideration, in L*a*b* color space we can separate L* channel and on
 """
 
 import sys
-sys.path.insert(0, '/anaconda2/envs/Lai_Project/color_extraction/kmeans/img_quality_assessment(img_quality_assessment(img_quality_assessment(IQA)))/psnr/lab_cs')
+sys.path.insert(0, '/anaconda2/envs/Lai_Project/color_quantization/kmeans/img_quality_assessment(img_quality_assessment(img_quality_assessment(IQA)))/psnr/lab_cs')
 
 from quantization_sky_float64 import testimg_list, rescale_ori, psnr
 import csv
