@@ -39,7 +39,7 @@ def quantize_color(image, num):
     for i in xrange(colors_length):
         octree.add_color(LAB_Color(colors[i]))
 
-    # ---- 256 colors for "num" bits per pixel output image
+    # ---- get the color palette of the original image
     palette_object = octree.make_palette(num)
     lab_palette = []
     for i in palette_object:
