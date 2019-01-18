@@ -1,7 +1,7 @@
+"""
+Build the RGB color object in order to do the color quantization
+"""
 class RGB_Color(object):
-    """
-    Color class
-    """
 
     def __init__(self, red = 0, green = 0, blue = 0, alpha = None):
         """

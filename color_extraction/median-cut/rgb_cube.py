@@ -1,4 +1,8 @@
 # -*- coding: UTF-8 -*-
+"""Build the RGB color cube to achieve the median-cut algorithm
+---- reference: "颜色量化中位切割法" written by perry0528
+---- https: // blog.csdn.net / perry0528 / article / details / 83048388
+"""
 from statistics import mean
 
 
@@ -17,20 +21,16 @@ class Cube(object):
     def __lt__(self, other):
         return self.range < other.range
 
+    # ---- get the mean RGB color of the cube
     def average(self):
         r = int(mean(self.red))
         g = int(mean(self.green))
         b = int(mean(self.blue))
         return r, g, b
 
+    # ---- split the cube into 2 subcubes from the middle of the channel with the maximum range
     def split(self):
         middle = int(len(self.colors) / 2)
         colors = sorted(self.colors, key=lambda c: c[self.channel])
         return Cube(colors[:middle]), Cube(colors[middle:])
 
-
-# ---------------------
-# 作者：perry0528
-# 来源：CSDN
-# 原文：https: // blog.csdn.net / perry0528 / article / details / 83048388
-# 版权声明：本文为博主原创文章，转载请附上博文链接！

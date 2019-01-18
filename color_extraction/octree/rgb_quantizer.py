@@ -1,5 +1,10 @@
-#!/usr/bin/env python
-#-*- coding: utf8 -*-
+# -*- coding: utf8 -*-
+"""
+Using Octree algorithm to to extract color themes (1-20) from the "sky" image in RGB color space
+---- reference:
+---- 1. "八叉树颜色量化" written by TwinklingStar,http://www.twinklingstar.cn/2013/491/octree-quantization/
+---- 2. "octree_color_quantizer" written by delimitry, https://github.com/delimitry/octree_color_quantizer
+"""
 
 from rgb_color import RGB_Color
 
