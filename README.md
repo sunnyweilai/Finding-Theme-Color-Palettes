@@ -1,9 +1,9 @@
 # Color Quantization and Image processing
 ## This project consists of 3 main parts:
 ### 1.	Implement color quantization of the image in 2 colors spaces (RGB and CIELab) using 3 different kinds of algorithms:
-* kmeans: https://en.wikipedia.org/wiki/K-means_clustering
-* median-cut: https://www.cs.tau.ac.il/~dcor/Graphics/cg-slides/color_q.pdf
-* octree: https://en.wikipedia.org/wiki/Octree
+* [`kmeans`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/kmeans): https://en.wikipedia.org/wiki/K-means_clustering
+* [`median-cut`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/median-cut): https://www.cs.tau.ac.il/~dcor/Graphics/cg-slides/color_q.pdf
+* [`octree`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/octree): https://en.wikipedia.org/wiki/Octree
 
 ### 2.	Visualize the color theme palettes and quantized images 
 All the color palettes and quantized images are in the `img` folder under each color quantization algorithm folder.
