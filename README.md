@@ -6,9 +6,11 @@
 * octree: https://en.wikipedia.org/wiki/Octree
 
 ### 2.	Visualize the color theme palettes and quantized images 
+All the color palettes and quantized images are in the `img` folder under each color quantization algorithm folder.
 
 ### 3.	Complete objective image quality assessment (IQA) of the original image and quantized images in two color spaces (RGB and CIELab) with 4 different methods:
 * Gradient Magnitude Similarity Deviation (GMSD): https://arxiv.org/pdf/1308.3052.pdf
 * Peak Signal-to-Noise Ratio (PSNR): https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio
 * Structural Similarity (SSIM): https://en.wikipedia.org/wiki/Structural_similarity
-* Visual Information Fidelity (VIF): http://utw10503.utweb.utexas.edu/publications/2005/hrs_vidqual_vpqm2005.pdf
+* Visual Information Fidelity (VIF): http://utw10503.utweb.utexas.edu/publications/2005/hrs_vidqual_vpqm2005.pdf <br>
+All the IQA implementations and results are in the `image_quality_assessment (IQA)` folder under each color quantization algorithm folder.
