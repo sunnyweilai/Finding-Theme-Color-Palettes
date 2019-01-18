@@ -13,27 +13,27 @@ from PIL import Image
 
 
 def quantize(raster, n_colors):
-    # raster image into rgb color space
+    # ---- raster image into rgb color space
     width, height, depth = raster.shape
     reshape_raster = np.reshape(raster, (width * height, depth))
 
-    # create kmeans model
+    # ---- create kmeans model
     model = KMeans(n_clusters = n_colors, random_state = 1)
     labels = model.fit_predict(reshape_raster)
     palette = model.cluster_centers_
 
-    # reshape the picture based on the color theme (n colors)
+    # ------- reshape the picture based on the color theme (n colors)
     # ------- reference: "color quantization using kmeans" writtern by Lou Marvin Caraig
     # ------- https://lmcaraig.com/color-quantization-using-k-means/#usingkmeansinrgbspace
     quantized_raster = np.reshape(
         palette[labels], (width, height, palette.shape[1])
     )
 
-    # save quantized images
+    # ---- save quantized images
     image = Image.fromarray(quantized_raster.astype(np.uint8))
     image.save("img/sky/rgb_cs/quantized_img/img_quantized%02d.png" % n_colors)
 
-    # visualize and save color theme palettes
+    # ---- visualize and save color theme palettes
     rgb_palette = palette / 255.0
     img_palette = mcolors.ListedColormap(rgb_palette)
     plt.figure(figsize=(n_colors, 0.5))
