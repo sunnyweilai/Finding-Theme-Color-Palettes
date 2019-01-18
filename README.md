@@ -6,7 +6,7 @@
 * [`octree`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/octree): https://en.wikipedia.org/wiki/Octree
 
 ### 2.	Visualize the color theme palettes and quantized images 
-All the color palettes and quantized images are in the `img` folder under each color quantization algorithm folder:
+#### All the color palettes and quantized images are in the `img` folder under each color quantization algorithm folder:
 * [color palettes and quantized images using `kmeans`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/kmeans/img)
 * [color palettes and quantized images using `median-cut`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/median-cut/img)
 * [color palettes and quantized images using `octree`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/octree/img)
@@ -16,7 +16,7 @@ All the color palettes and quantized images are in the `img` folder under each c
 * Peak Signal-to-Noise Ratio (PSNR): https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio
 * Structural Similarity (SSIM): https://en.wikipedia.org/wiki/Structural_similarity
 * Visual Information Fidelity (VIF): http://utw10503.utweb.utexas.edu/publications/2005/hrs_vidqual_vpqm2005.pdf <br>
-All the IQA implementations and results are in the `image_quality_assessment(IQA)` folder under each color quantization algorithm folder:
+#### All the IQA implementations and results are in the `image_quality_assessment(IQA)` folder under each color quantization algorithm folder:
 * [IQA of `kmeans`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/kmeans/image_quality_assessment(IQA))
 * [IQA of `median-cut`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/median-cut/image_quality_assessment(IQA))
 * [IQA of `octree`](https://gitlab.cas.mcmaster.ca/G-ScalE/Lai_Project/tree/master/color_extraction/octree/image_quality_assessment(IQA))
