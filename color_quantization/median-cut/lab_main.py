@@ -6,7 +6,7 @@ Using median-cut algorithm to extract color themes (1-20) from the "sky" image i
 """
 from PIL import Image
 from skimage import color
-from lab_cube import LAB_Cube_2
+from lab_cube import LAB_Cube_1
 import numpy as np
 import skimage
 import pandas as pd
@@ -27,7 +27,7 @@ def median_cut(img, num):
     colors = ()
     for color in ori_arr_lab:
         colors += tuple(map(tuple,color))
-    cubes = [LAB_Cube_2(colors)]
+    cubes = [LAB_Cube_1(colors)]
 
     # ---- split the color cube into "num" small color cubes
     # ---- reference: "颜色量化中位切割法" written by perry0528
@@ -45,16 +45,16 @@ def median_cut(img, num):
             LUT[color] = average
 
     # ---- using color palette to get the quantized image array and save it
-    quant_arr = ori_arr_lab
-    for i in range(rows):
-        for j in range(cols):
-            index = (quant_arr[i, j, 0], quant_arr[i, j, 1], quant_arr[i, j, 2])
-            new_color = LUT[index]
-            quant_arr[i, j] = new_color
-
-    new_rgb_raster = skimage.color.lab2rgb(quant_arr) * 255
-    image = Image.fromarray(new_rgb_raster.astype(np.uint8))
-    image.save("img/sky/lab_cs/added_L_quantized_img/img_quantized%02d.png" % num)
+    # quant_arr = ori_arr_lab
+    # for i in range(rows):
+    #     for j in range(cols):
+    #         index = (quant_arr[i, j, 0], quant_arr[i, j, 1], quant_arr[i, j, 2])
+    #         new_color = LUT[index]
+    #         quant_arr[i, j] = new_color
+    #
+    # new_rgb_raster = skimage.color.lab2rgb(quant_arr) * 255
+    # image = Image.fromarray(new_rgb_raster.astype(np.uint8))
+    # image.save("img/sky/lab_cs/added_L_quantized_img/img_quantized%02d.png" % num)
 
     # ---- extract palette using pandas
     LUT_df = pd.DataFrame.from_dict(LUT, orient = 'index',columns = ['L','A','B'])
@@ -78,14 +78,15 @@ def median_cut(img, num):
     plt.gca().yaxis.set_visible(False)
     plt.gca().set_xlim(0, img_palette.N)
     plt.axis('off')
-    plt.savefig('img/sky/lab_cs/quantized_palette/img_palette%02d.png' % num)
+    plt.savefig('img/sky/lab_cs/quantized_palette_#1/img_palette%02d.png' % num)
+
 
 
 # ---- obtain color themes
 def main() :
     # open the reference image
     original_img = Image.open('../img/sky.jpg')
-    for n_colors in range(10, 21):
+    for n_colors in range(1, 15):
         median_cut(original_img, n_colors)
 
 if __name__ == "__main__":

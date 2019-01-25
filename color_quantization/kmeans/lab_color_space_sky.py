@@ -56,7 +56,7 @@ def quantize(raster, n_colors):
     plt.gca().yaxis.set_visible(False)
     plt.gca().set_xlim(0, img_palette.N)
     plt.axis('off')
-    plt.savefig('img/sky/lab_cs/quantized_palette/img_palette%02d.png' % n_colors)
+    plt.savefig('img/sky/lab_cs/quantized_palette_#2/img_palette%02d.png' % n_colors)
 
 
 for i in range(1,21):

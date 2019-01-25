@@ -18,15 +18,26 @@ class LAB_Cube_1(object):
         self.A = [a[1] for a in colors]
         self.B = [b[2] for b in colors]
 
+        self.size = (max(self.L) - min(self.L),
+                     max(self.A) - min(self.A),
+                     max(self.B) - min(self.B))
+        self.range = max(self.size)
+        self.channel = self.size.index(self.range)
+
+    def __lt__(self, other):
+        return self.range < other.range
+
+    # ---- get the mean L*a*b* color of the cube
     def average(self):
         l = int(mean(self.L))
         a = int(mean(self.A))
         b = int(mean(self.B))
         return l, a, b
 
+    # ---- split the cube into 2 subcubes from the middle of the channel with the maximum range
     def split(self):
         middle = int(len(self.colors) / 2)
-        colors = sorted(self.colors, key = lambda x: x[0].any())
+        colors = sorted(self.colors, key=lambda c: c[self.channel])
         return LAB_Cube_1(colors[:middle]), LAB_Cube_1(colors[middle:])
 
 # ---- build the new median-cut L*a*b* color cube

@@ -68,7 +68,7 @@ def quantize_color(image, num):
     plt.gca().yaxis.set_visible(False)
     plt.gca().set_xlim(0, img_palette.N)
     plt.axis('off')
-    plt.savefig('img/sky/lab_cs/quantized_palette/img_palette%02d.png' % num)
+    plt.savefig('img/sky/lab_cs/quantized_palette_#2/img_palette%02d.png' % num)
 
     # ----- get the quantized image
     quantized_arr = np.ones((width,height,3))
