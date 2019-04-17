@@ -491,7 +491,7 @@ class BasePattern(object):
 
         Returns True if it matches, False if not.
 
-        If results is not None, it must be a dict which will be
+        If #1lab_results is not None, it must be a dict which will be
         updated with the nodes matching named subpatterns.
 
         Default implementation for non-wildcard patterns.
@@ -542,7 +542,7 @@ class LeafPattern(BasePattern):
 
         The content, if given, must be a string.
 
-        If a name is given, the matching node is stored in the results
+        If a name is given, the matching node is stored in the #1lab_results
         dict under that key.
         """
         if type is not None:
@@ -567,10 +567,10 @@ class LeafPattern(BasePattern):
 
         Returns True if it matches, False if not.
 
-        If results is not None, it must be a dict which will be
+        If #1lab_results is not None, it must be a dict which will be
         updated with the nodes matching named subpatterns.
 
-        When returning False, the results dict may still be updated.
+        When returning False, the #1lab_results dict may still be updated.
         """
         return self.content == node.value
 
@@ -592,7 +592,7 @@ class NodePattern(BasePattern):
         must match the node's children exactly.  If the content is
         given, the type must not be None.
 
-        If a name is given, the matching node is stored in the results
+        If a name is given, the matching node is stored in the #1lab_results
         dict under that key.
         """
         if type is not None:
@@ -616,10 +616,10 @@ class NodePattern(BasePattern):
 
         Returns True if it matches, False if not.
 
-        If results is not None, it must be a dict which will be
+        If #1lab_results is not None, it must be a dict which will be
         updated with the nodes matching named subpatterns.
 
-        When returning False, the results dict may still be updated.
+        When returning False, the #1lab_results dict may still be updated.
         """
         if self.wildcards:
             for c, r in generate_matches(self.content, node.children):
@@ -727,9 +727,9 @@ class WildcardPattern(BasePattern):
             nodes: sequence of nodes
 
         Yields:
-            (count, results) tuples where:
+            (count, #1lab_results) tuples where:
             count: the match comprises nodes[:count];
-            results: dict containing named submatches.
+            #1lab_results: dict containing named submatches.
         """
         if self.content is None:
             # Shortcut for special case (see __init__.__doc__)
@@ -868,9 +868,9 @@ def generate_matches(patterns, nodes):
         nodes: a sequence of nodes
 
     Yields:
-        (count, results) tuples where:
+        (count, #1lab_results) tuples where:
         count: the entire sequence of patterns matches nodes[:count];
-        results: dict containing named submatches.
+        #1lab_results: dict containing named submatches.
         """
     if not patterns:
         yield 0, {}

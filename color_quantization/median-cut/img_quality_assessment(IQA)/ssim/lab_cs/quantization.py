@@ -4,7 +4,7 @@ Using median-cut algorithm to extract color themes (1-20) from the "sky" image i
 ---- reference:  "color quantization"
 ---- https://www.cs.tau.ac.il/~dcor/Graphics/cg-slides/color_q.pdf
 """
-from lab_cube import LAB_Cube_2
+from lab_cube import LAB_Cube_1
 import skimage
 import numpy as np
 
@@ -20,7 +20,7 @@ def median_cut(img, num):
     colors = ()
     for color in ori_arr_lab:
         colors += tuple(map(tuple, color))
-    cubes = [LAB_Cube_2(colors)]
+    cubes = [LAB_Cube_1(colors)]
 
     # ---- split the color cube into "num" small color cubes
     # ---- reference: "颜色量化中位切割法" written by perry0528

@@ -953,7 +953,7 @@ class _MultiCallMethod:
         self.__call_list.append((self.__name, args))
 
 class MultiCallIterator:
-    """Iterates over the results of a multicall. Exceptions are
+    """Iterates over the #1lab_results of a multicall. Exceptions are
     raised in response to xmlrpc faults."""
 
     def __init__(self, results):

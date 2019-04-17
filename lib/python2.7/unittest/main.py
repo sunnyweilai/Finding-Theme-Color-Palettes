@@ -10,7 +10,7 @@ from .signals import installHandler
 __unittest = True
 
 FAILFAST     = "  -f, --failfast   Stop on first failure\n"
-CATCHBREAK   = "  -c, --catch      Catch control-C and display results\n"
+CATCHBREAK   = "  -c, --catch      Catch control-C and display #1lab_results\n"
 BUFFEROUTPUT = "  -b, --buffer     Buffer stdout and stderr during test runs\n"
 
 USAGE_AS_MAIN = """\
@@ -174,7 +174,7 @@ class TestProgram(object):
                               action='store_true')
         if self.catchbreak != False:
             parser.add_option('-c', '--catch', dest='catchbreak', default=False,
-                              help='Catch Ctrl-C and display results so far',
+                              help='Catch Ctrl-C and display #1lab_results so far',
                               action='store_true')
         if self.buffer != False:
             parser.add_option('-b', '--buffer', dest='buffer', default=False,

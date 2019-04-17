@@ -12,7 +12,8 @@ import matplotlib.pyplot as plt
 import  matplotlib.colors as mcolors
 from rgb_color import RGB_Color
 from rgb_quantizer import OctreeQuantizer
-
+# get the run time
+import datetime
 
 #  ---- insert all colors of image into octree
 def quantize_color(path,num):
@@ -38,7 +39,7 @@ def quantize_color(path,num):
             index = octree.get_palette_index(RGB_Color(*pixels[i, j]))
             color = palette_object[index]
             out_pixels[i, j] = (color.red, color.green, color.blue)
-    out_image.save('img/sky/rgb_cs/quantized_img/img%02d.png' % num)
+    out_image.save('img/img08/rgb_cs/quantized_img/img%02d.png' % num)
 
     # ---- get the RGB color palette array
     rgb_palette = []
@@ -57,12 +58,17 @@ def quantize_color(path,num):
     plt.gca().yaxis.set_visible(False)
     plt.gca().set_xlim(0, img_palette.N)
     plt.axis('off')
-    plt.savefig('img/sky/rgb_cs/quantized_palette_#2/img_palette%02d.png' % num)
+    plt.savefig('img/img08/rgb_cs/quantized_palette/img_palette%02d.png' % num)
 
-
+# start timer
+start = datetime.datetime.now()
 def main():
-    for i in range(1,21):
-        quantize_color('../img/sky.jpg',i)
+    for i in [20]:
+        quantize_color('../img/img08.jpg',i)
 
 if __name__ == '__main__':
     main()
+
+# end timer
+end = datetime.datetime.now()
+print (end-start)

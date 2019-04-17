@@ -1403,7 +1403,7 @@ class DocTestRunner:
 
     def run(self, test, compileflags=None, out=None, clear_globs=True):
         """
-        Run the examples in `test`, and display the results using the
+        Run the examples in `test`, and display the #1lab_results using the
         writer function `out`.
 
         The examples are run in the namespace `test.globs`.  If
@@ -1418,7 +1418,7 @@ class DocTestRunner:
         flags that apply to `globs`.
 
         The output of each example is checked using
-        `DocTestRunner.check_output`, and the results are formatted by
+        `DocTestRunner.check_output`, and the #1lab_results are formatted by
         the `DocTestRunner.report_*` methods.
         """
         self.test = test
@@ -1875,7 +1875,7 @@ def testmod(m=None, name=None, globs=None, verbose=None,
     post-mortem debugged.
 
     Advanced tomfoolery:  testmod runs methods of a local instance of
-    class doctest.Tester, then merges the results into (or creates)
+    class doctest.Tester, then merges the #1lab_results into (or creates)
     global Tester instance doctest.master.  Methods of doctest.master
     can be called directly too, if you want to do something unusual.
     Passing report=0 to testmod is especially useful then, to delay
@@ -1993,7 +1993,7 @@ def testfile(filename, module_relative=True, name=None, package=None,
     be used to convert the file to unicode.
 
     Advanced tomfoolery:  testmod runs methods of a local instance of
-    class doctest.Tester, then merges the results into (or creates)
+    class doctest.Tester, then merges the #1lab_results into (or creates)
     global Tester instance doctest.master.  Methods of doctest.master
     can be called directly too, if you want to do something unusual.
     Passing report=0 to testmod is especially useful then, to delay

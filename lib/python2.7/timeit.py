@@ -17,7 +17,7 @@ Options:
   -s/--setup S: statement to be executed once initially (default 'pass')
   -t/--time: use time.time() (default on Unix)
   -c/--clock: use time.clock() (default on Windows)
-  -v/--verbose: print raw timing results; repeat for more digits precision
+  -v/--verbose: print raw timing #1lab_results; repeat for more digits precision
   -h/--help: print this usage message and exit
   --: separate options from statement, use when statement starts with -
   statement: statement to be timed (default 'pass')
@@ -112,7 +112,7 @@ class Timer:
 
     To measure the execution time of the first statement, use the
     timeit() method.  The repeat() method is a convenience to call
-    timeit() multiple times and return a list of results.
+    timeit() multiple times and return a list of #1lab_results.
 
     The statements may contain newlines, as long as they don't contain
     multi-line string literals.
@@ -209,7 +209,7 @@ class Timer:
         """Call timeit() a few times.
 
         This is a convenience function that calls the timeit()
-        repeatedly, returning a list of results.  The first argument
+        repeatedly, returning a list of #1lab_results.  The first argument
         specifies how many times to call timeit(), defaulting to 3;
         the second argument specifies the timer argument, defaulting
         to one million.

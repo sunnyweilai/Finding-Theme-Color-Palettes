@@ -130,7 +130,7 @@ class IMAP4:
 
     Each command returns a tuple: (type, [data, ...]) where 'type'
     is usually 'OK' or 'NO', and 'data' is either the text from the
-    tagged response, or untagged results from command. Each 'data'
+    tagged response, or untagged #1lab_results from command. Each 'data'
     is either a string, or a tuple. If a tuple, then the first part
     is the header of the response, and the second part contains
     the data (ie: 'literal' value).
@@ -148,7 +148,7 @@ class IMAP4:
 
     Note: to use this module, you must read the RFCs pertaining to the
     IMAP4 protocol, as the semantics of the arguments to each IMAP4
-    command are left to the invoker, not to mention the results. Also,
+    command are left to the invoker, not to mention the #1lab_results. Also,
     most IMAP servers implement a sub-set of the commands available here.
     """
 

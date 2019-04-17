@@ -10,6 +10,7 @@ import numpy as np
 import csv
 from PIL import Image
 import skimage
+from skimage import color
 from skimage.measure import compare_ssim
 from quantization import median_cut
 
@@ -33,11 +34,11 @@ def main() :
     # ---- compare MSSIM
     score_list = []
     for i in testimg_list:
-        score = compare_ssim(rescale_ori, i, multichannel=True)
+        score = compare_ssim(rescale_ori[:,:,0], i[:,:,0], multichannel=True)
         score_list.append(score)
 
     # ---- save ssim score to csv file
-    csvfile = "added_L_ssim_lab.csv"
+    csvfile = "ssim_lab_in_L.csv"
     with open(csvfile, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
         for val in score_list:

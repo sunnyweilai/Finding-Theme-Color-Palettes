@@ -419,7 +419,7 @@ class SGMLParser(markupbase.ParserBase):
         """Convert entity references.
 
         As an alternative to overriding this method; one can tailor the
-        results by setting up the self.entitydefs mapping appropriately.
+        #1lab_results by setting up the self.entitydefs mapping appropriately.
         """
         table = self.entitydefs
         if name in table:

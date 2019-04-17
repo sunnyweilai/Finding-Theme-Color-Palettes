@@ -26,7 +26,7 @@ STDERR_LINE = '\nStderr:\n%s'
 class TestResult(object):
     """Holder for test result information.
 
-    Test results are automatically managed by the TestCase and TestSuite
+    Test #1lab_results are automatically managed by the TestCase and TestSuite
     classes, and do not need to be explicitly manipulated by writers of tests.
 
     Each instance holds the total number of tests run, and collections of

@@ -17,7 +17,7 @@ from skimage import color
 
 
 # ---- convert to lab color space to do kmeans
-rgb_raster = scipy.misc.imread('../../../../img/sky.jpg')
+rgb_raster = scipy.misc.imread('../../../../img/img10.jpg')
 lab_raster = color.rgb2lab(rgb_raster)
 
 
@@ -62,7 +62,7 @@ for i in testimg_list:
 
 
 # ---- save gmsd score to csv file
-csvfile = "lab_sky_gmsd.csv"
+csvfile = "lab_img10_gmsd.csv"
 with open(csvfile, "w") as output:
     writer = csv.writer(output, lineterminator='\n')
     for val in score_list:

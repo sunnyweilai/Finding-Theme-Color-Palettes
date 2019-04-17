@@ -646,7 +646,7 @@ class Telnet:
 
         If a regular expression ends with a greedy match (e.g. '.*')
         or if more than one expression can match the same input, the
-        results are undeterministic, and may depend on the I/O timing.
+        #1lab_results are undeterministic, and may depend on the I/O timing.
 
         """
         if self._has_poll:

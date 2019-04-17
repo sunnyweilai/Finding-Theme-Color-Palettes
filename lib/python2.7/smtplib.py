@@ -278,7 +278,7 @@ class SMTP:
     def set_debuglevel(self, debuglevel):
         """Set the debug output level.
 
-        A non-false value results in debug messages for connection and for all
+        A non-false value #1lab_results in debug messages for connection and for all
         messages sent to and received from the server.
 
         """

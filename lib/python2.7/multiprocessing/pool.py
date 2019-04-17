@@ -272,7 +272,7 @@ class Pool(object):
 
     def imap_unordered(self, func, iterable, chunksize=1):
         '''
-        Like `imap()` method but ordering of results is arbitrary
+        Like `imap()` method but ordering of #1lab_results is arbitrary
         '''
         assert self._state == RUN
         if chunksize == 1:

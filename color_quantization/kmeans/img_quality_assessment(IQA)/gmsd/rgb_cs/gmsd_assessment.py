@@ -13,14 +13,14 @@ import math
 import sporco.metric
 
 # ---- resize the original image array into 2d
-temp_img = np.array(Image.open('../../../../img/sky.jpg'),'f')
+temp_img = np.array(Image.open('../../../../img/img10.jpg'),'f')
 temp_width = temp_img.shape[0]
 temp_height = temp_img.shape[1]*temp_img.shape[2]
 temp_img.resize((temp_width,temp_height))
 
 # ---- get all the quantized images from the folder
 quantized_img_path_list = []
-quantized_img_path_list = glob.glob(r'../../../img/sky/rgb_cs/quantized_img/*.png')
+quantized_img_path_list = glob.glob(r'../../../img/img10/rgb_cs/quantized_img/*.png')
 quantized_img_path_list.sort()
 
 # ---- compute gmsd
@@ -32,10 +32,10 @@ for i in quantized_img_path_list:
     quantized_img.resize((quantized_width,quantized_height))
     score = sporco.metric.gmsd(temp_img, quantized_img)
     score_list.append(score)
-print(score_list)
+# print(score_list)
 
 # ---- save gmsd score to csv file
-csvfile = "sky_gmsd.csv"
+csvfile = "img10_gmsd.csv"
 with open(csvfile, "w") as output:
     writer = csv.writer(output, lineterminator='\n')
     for val in score_list:

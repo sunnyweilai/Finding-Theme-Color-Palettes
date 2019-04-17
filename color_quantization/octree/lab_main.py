@@ -18,7 +18,8 @@ import  matplotlib.colors as mcolors
 from lab_color import LAB_Color
 from lab_quantizer import OctreeQuantizer
 import math
-
+# get the run time
+import datetime
 
 #  ---- insert all colors of image into octree
 def quantize_color(image, num):
@@ -68,7 +69,7 @@ def quantize_color(image, num):
     plt.gca().yaxis.set_visible(False)
     plt.gca().set_xlim(0, img_palette.N)
     plt.axis('off')
-    plt.savefig('img/sky/lab_cs/quantized_palette_#2/img_palette%02d.png' % num)
+    plt.savefig('img/img01/lab_cs/quantized_palette/img_palette%02d.png' % num)
 
     # ----- get the quantized image
     quantized_arr = np.ones((width,height,3))
@@ -85,12 +86,18 @@ def quantize_color(image, num):
     new_rgb_arr = skimage.color.lab2rgb(quantized_arr) * 255
     f_rgb_arr = new_rgb_arr.transpose((1,0,2))
     quantized_image = Image.fromarray(f_rgb_arr.astype(np.uint8))
-    quantized_image.save('img/sky/lab_cs/quantized_img/img%02d.png' % num)
+    quantized_image.save('img/img01/lab_cs/quantized_img/img%02d.png' % num)
 
+# start timer
+start = datetime.datetime.now()
 def main():
-    original_img = Image.open('../img/sky.jpg')
-    for i in range(1, 10):
+    original_img = Image.open('../img/img01.jpg')
+    for i in range(1, 21):
         quantize_color(original_img, i)
 
 if __name__ == "__main__":
     main()
+
+# end timer
+end = datetime.datetime.now()
+print (end-start)

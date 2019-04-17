@@ -34,7 +34,7 @@ def cmp(f1, f2, shallow=1):
 
     True if the files are the same, False otherwise.
 
-    This function uses a cache for past comparisons and the results,
+    This function uses a cache for past comparisons and the #1lab_results,
     with a cache invalidation mechanism relying on stale signatures.
 
     """

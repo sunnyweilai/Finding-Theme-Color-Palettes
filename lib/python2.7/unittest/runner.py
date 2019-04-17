@@ -26,7 +26,7 @@ class _WritelnDecorator(object):
 
 
 class TextTestResult(result.TestResult):
-    """A test result class that can print formatted text results to a stream.
+    """A test result class that can print formatted text #1lab_results to a stream.
 
     Used by TextTestRunner.
     """
@@ -117,10 +117,10 @@ class TextTestResult(result.TestResult):
 
 
 class TextTestRunner(object):
-    """A test runner class that displays results in textual form.
+    """A test runner class that displays #1lab_results in textual form.
 
     It prints out the names of tests as they are run, errors as they
-    occur, and a summary of the results at the end of the test run.
+    occur, and a summary of the #1lab_results at the end of the test run.
     """
     resultclass = TextTestResult
 

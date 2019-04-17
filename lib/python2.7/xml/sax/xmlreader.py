@@ -154,7 +154,7 @@ class IncrementalParser(XMLReader):
     def reset(self):
         """This method is called after close has been called to reset
         the parser so that it is ready to parse new documents. The
-        results of calling parse or feed after close without calling
+        #1lab_results of calling parse or feed after close without calling
         reset are undefined."""
         raise NotImplementedError("This method must be implemented!")
 
@@ -162,9 +162,9 @@ class IncrementalParser(XMLReader):
 
 class Locator:
     """Interface for associating a SAX event with a document
-    location. A locator object will return valid results only during
+    location. A locator object will return valid #1lab_results only during
     calls to DocumentHandler methods; at any other time, the
-    results are unpredictable."""
+    #1lab_results are unpredictable."""
 
     def getColumnNumber(self):
         "Return the column number where the current event ends."

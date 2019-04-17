@@ -8,6 +8,7 @@ from __future__ import division
 from PIL import Image
 import numpy as np
 import skimage
+from skimage import color
 from lab_color import LAB_Color
 from lab_quantizer import OctreeQuantizer
 import math
@@ -81,11 +82,11 @@ def main():
     # ---- compare PSNR
     score_list = []
     for i in testimg_list:
-        score = psnr(rescale_ori, i)
+        score = psnr(rescale_ori[:,:,0], i[:,:,0])
         score_list.append(score)
 
     # ---- save PSNR score to csv file
-    csvfile = "psnr_lab.csv"
+    csvfile = "psnr_lab_L.csv"
     with open(csvfile, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
         for val in score_list:

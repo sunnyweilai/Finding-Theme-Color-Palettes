@@ -44,7 +44,7 @@ Sample use, programmatically
   # run the new command using the given tracer
   tracer.run('main()')
   # make a report, placing output in /tmp
-  r = tracer.results()
+  r = tracer.#1lab_results()
   r.write_results(show_missing=True, coverdir="/tmp")
 """
 
@@ -94,12 +94,12 @@ Otherwise, exactly one of the following three options must be given:
                       module executed, in the module's directory.
                       See also `--coverdir', `--file', `--no-report' below.
 -l, --listfuncs       Keep track of which functions are executed at least
-                      once and write the results to sys.stdout after the
+                      once and write the #1lab_results to sys.stdout after the
                       program exits.
 -T, --trackcalls      Keep track of caller/called pairs and write the
-                      results to sys.stdout after the program exits.
+                      #1lab_results to sys.stdout after the program exits.
 -r, --report          Generate a report from a counts file; do not execute
-                      any code.  `--file' must specify the results file to
+                      any code.  `--file' must specify the #1lab_results file to
                       read, which must have been created in a previous run
                       with `--count --file=FILE'.
 
@@ -355,7 +355,7 @@ class CoverageResults:
                 print >> sys.stderr, "Can't save counts files because %s" % err
 
     def write_results_file(self, path, lines, lnotab, lines_hit):
-        """Return a coverage results file in path."""
+        """Return a coverage #1lab_results file in path."""
 
         try:
             outfile = open(path, "w")
@@ -464,8 +464,8 @@ class Trace:
         @param ignoredirs a list of the names of directories to ignore
                      all of the (recursive) contents of
         @param infile file from which to read stored counts to be
-                     added into the results
-        @param outfile file in which to write the results
+                     added into the #1lab_results
+        @param outfile file in which to write the #1lab_results
         @param timing true iff timing information be displayed
         """
         self.infile = infile

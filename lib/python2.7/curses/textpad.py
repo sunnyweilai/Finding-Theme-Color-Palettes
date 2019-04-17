@@ -175,7 +175,7 @@ class Textbox:
         return result
 
     def edit(self, validate=None):
-        "Edit in the widget window and collect the results."
+        "Edit in the widget window and collect the #1lab_results."
         while 1:
             ch = self.win.getch()
             if validate:

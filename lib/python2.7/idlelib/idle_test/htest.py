@@ -181,8 +181,8 @@ _grep_dialog_spec = {
     'kwds': {},
     'msg': "Click the 'Show GrepDialog' button.\n"
            "Test the various 'Find-in-files' functions.\n"
-           "The results should be displayed in a new '*Output*' window.\n"
-           "'Right-click'->'Goto file/line' anywhere in the search results "
+           "The #1lab_results should be displayed in a new '*Output*' window.\n"
+           "'Right-click'->'Goto file/line' anywhere in the search #1lab_results "
            "should open that file \nin a new EditorWindow."
     }
 

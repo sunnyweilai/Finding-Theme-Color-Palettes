@@ -7,7 +7,7 @@ image quality assessment (img_quality_assessment(img_quality_assessment(IQA))) o
 
 from PIL import Image
 from skimage import color
-from lab_cube import LAB_Cube_1 # I also imported LAB_Cube_2 to get the PSNR result of the 2nd color cube
+from lab_cube import LAB_Cube_2 # I also imported LAB_Cube_2 to get the PSNR result of the 2nd color cube
 import skimage
 import numpy as np
 import csv
@@ -25,7 +25,7 @@ def median_cut(img, num):
     colors = ()
     for color in ori_arr_lab:
         colors += tuple(map(tuple, color))
-    cubes = [LAB_Cube_1(colors)]
+    cubes = [LAB_Cube_2(colors)]
 
     # ---- split the color cube into "num" small color cubes
     # ---- reference: "颜色量化中位切割法" written by perry0528
@@ -84,11 +84,11 @@ def main() :
     # ---- compare PSNR
     score_list = []
     for i in testimg_list:
-        score = psnr(rescale_ori, i)
+        score = psnr(rescale_ori[:,:,0], i[:,:,0])
         score_list.append(score)
 
     # ---- save PSNR score to csv file
-    csvfile = "psnr_lab.csv"
+    csvfile = "added_L_psnr_lab_L.csv"
     with open(csvfile, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
         for val in score_list:

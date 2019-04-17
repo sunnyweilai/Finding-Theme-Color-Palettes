@@ -411,7 +411,7 @@ def wrap_text (text, width):
     """wrap_text(text : string, width : int) -> [string]
 
     Split 'text' into multiple lines of no more than 'width' characters
-    each, and return the list of strings that results.
+    each, and return the list of strings that #1lab_results.
     """
 
     if text is None:

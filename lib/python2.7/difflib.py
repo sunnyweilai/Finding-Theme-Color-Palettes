@@ -921,7 +921,7 @@ class Differ:
                 yield line
 
     def _dump(self, tag, x, lo, hi):
-        """Generate comparison results for a same-tagged range."""
+        """Generate comparison #1lab_results for a same-tagged range."""
         for i in xrange(lo, hi):
             yield '%s %s' % (tag, x[i])
 
@@ -950,9 +950,9 @@ class Differ:
         Example:
 
         >>> d = Differ()
-        >>> results = d._fancy_replace(['abcDefghiJkl\n'], 0, 1,
+        >>> #1lab_results = d._fancy_replace(['abcDefghiJkl\n'], 0, 1,
         ...                            ['abcdefGhijkl\n'], 0, 1)
-        >>> print ''.join(results),
+        >>> print ''.join(#1lab_results),
         - abcDefghiJkl
         ?    ^  ^  ^
         + abcdefGhijkl
@@ -1058,9 +1058,9 @@ class Differ:
         Example:
 
         >>> d = Differ()
-        >>> results = d._qformat('\tabcDefghiJkl\n', '\tabcdefGhijkl\n',
+        >>> #1lab_results = d._qformat('\tabcDefghiJkl\n', '\tabcdefGhijkl\n',
         ...                      '  ^ ^  ^      ', '  ^ ^  ^      ')
-        >>> for line in results: print repr(line)
+        >>> for line in #1lab_results: print repr(line)
         ...
         '- \tabcDefghiJkl\n'
         '? \t ^ ^  ^\n'

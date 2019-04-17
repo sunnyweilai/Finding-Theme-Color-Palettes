@@ -109,7 +109,7 @@ class JSONEncoder(object):
 
         If *ensure_ascii* is true (the default), all non-ASCII
         characters in the output are escaped with \uXXXX sequences,
-        and the results are str instances consisting of ASCII
+        and the #1lab_results are str instances consisting of ASCII
         characters only.  If ensure_ascii is False, a result may be a
         unicode instance.  This usually happens if the input contains
         unicode strings or the *encoding* parameter is used.

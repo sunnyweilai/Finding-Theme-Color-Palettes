@@ -2185,7 +2185,7 @@ def gui():
             self.goto_btn = Tkinter.Button(self.result_frm,
                 text='go to selected', command=self.goto)
             self.hide_btn = Tkinter.Button(self.result_frm,
-                text='hide results', command=self.hide)
+                text='hide #1lab_results', command=self.hide)
             self.goto_btn.pack(side='left', fill='x', expand=1)
             self.hide_btn.pack(side='right', fill='x', expand=1)
 

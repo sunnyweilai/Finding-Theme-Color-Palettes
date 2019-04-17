@@ -46,7 +46,7 @@ __all__ = ["run", "runctx", "help", "Profile"]
 #**************************************************************************
 
 def run(statement, filename=None, sort=-1):
-    """Run statement under profiler optionally saving results in filename
+    """Run statement under profiler optionally saving #1lab_results in filename
 
     This function takes a single argument that can be passed to the
     "exec" statement, and an optional file name.  In all cases this
@@ -68,7 +68,7 @@ def run(statement, filename=None, sort=-1):
 
 def runctx(statement, globals, locals, filename=None, sort=-1):
     """Run statement under profiler, supplying your own globals and locals,
-    optionally saving results in filename.
+    optionally saving #1lab_results in filename.
 
     statement and filename have the same semantics as profile.run
     """
