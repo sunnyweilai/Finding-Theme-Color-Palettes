@@ -3,6 +3,8 @@
 Automatically extract theme color palettes from images of famous paintings using multiple color quantization algorithms in both **RGB** and **L\*a\*b\*** color spaces.  
 This project evaluates visual fidelity using four objective image quality metrics and compares algorithmic performance.
 
+<p align="center"> <img src="head.png" width="700"/> </p>
+
 ---
 
 ## 📚 Table of Contents
@@ -53,6 +55,9 @@ Commonly used in image compression and palette creation.
 ### 3. **Octree Quantization**
 Builds a hierarchical tree structure to group and merge similar colors.  
 Efficient for large images and 3D color data.
+
+<p align="center"> <img src="rgb.png" width="700"/> </p>
+<p align="center"> <img src="lab.png" width="700"/> </p>
 
 ---
 
